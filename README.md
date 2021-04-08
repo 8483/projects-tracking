@@ -38,3 +38,10 @@ node build.js
 # run in both /app and /server directories
 npm i
 ```
+
+# 4. Run the server
+
+```bash
+# run from the server directory
+nodemon server.js
+```
