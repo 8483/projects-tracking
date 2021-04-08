@@ -1,0 +1,121 @@
+html,
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    /* font-size: 16px; */
+    height: 100%;
+    cursor: default;
+    background: #f5f5f5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+select {
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* BUTTONS =============================================================================================== */
+
+.btn {
+    padding: 5px 10px;
+    max-height: 50px;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2);
+    /* right, bottom blur spread */
+}
+
+.btn:hover {
+    background: rgb(221, 221, 221);
+}
+
+.btn-black {
+    background: rgb(69, 69, 69);
+    color: white;
+}
+
+.btn-black:hover {
+    background: rgb(47, 47, 47);
+}
+
+.btn-blue {
+    background: rgb(60, 105, 182);
+    color: white;
+}
+
+.btn-blue:hover {
+    background: rgb(50, 87, 150);
+}
+
+.btn-green {
+    background: rgb(76, 182, 60);
+    color: white;
+}
+
+.btn-green:hover {
+    background: rgb(64, 154, 51);
+}
+
+.btn-red {
+    background: rgb(231, 65, 65);
+    color: white;
+}
+
+.btn-red:hover {
+    background: rgb(184, 52, 52);
+}
+
+/* SCROLLBAR =============================================================================================== */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /* background: #f1f1f1; */
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #333;
+    cursor: pointer;
+}
